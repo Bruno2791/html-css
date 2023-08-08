@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em dispositivos diferentes ou aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/eu-300.jpg" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/eu-700.jpg" type="image/png">
+        <img src="imagens/eu-960.jpg" alt="Minha imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    
+    <audio preload="none" controls >
+        <source src="midia/High-Noon.mp3" type="audio/mpeg">
+        <source src="midia/High-Noon.ogg" type="audio/mogg">
+        <source src="midia/High-Noon.wav" type="audio/wav">
+        <p>infelizmente seu navegador não consegue reproduzir áudio.
+            <a href="midia/High-Noon.mp3">Clique aqui para baixar o arquivo</a> </p>
+    </audio>
+    
+</body>
+</html>
