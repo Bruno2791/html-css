@@ -30,13 +30,11 @@ cursor: pointer;
 .material-symbols-outlined:hover{
   background-color: white;
   color: black;
-
+  
 
 }
-.material-symbols-outlined:hover::after menu{
-display: block;
-position: absolute;
-}
+
+
 
 menu{
    display: none;
@@ -58,12 +56,12 @@ border-top: 2px solid black;
 }
 menu ul li a:hover{
 background-color: gray;
-position: absolute;
 
 
-}
 
 }
+
+
 main{
    width: 90vw;
    background-color: white;
